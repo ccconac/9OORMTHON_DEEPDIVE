@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.card-container {
+  width: 48rem;
+  height: 15.75rem;
+
+  padding: 1.5rem;
+
+  border: 0.063rem solid #e8e8ee;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1 1 auto;
+
+  width: 32rem;
+  height: 15rem;
+
+  gap: 1.5rem;
+}
+
+.image-wrapper {
+  width: 15.625rem;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.left-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  letter-spacing: -0.0125rem;
+
+  width: 70%;
+}
+
+.item-title {
+  margin: 0.2rem 0 0.5rem -0.1rem;
+}
+
+.quantity {
+  font-size: 0.875rem;
+  color: #858899;
+}
+
+.bottom-content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.875rem;
+}
+
+.cost-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 0.325rem;
+}
+
+.coin-icon {
+  width: 2rem;
+  height: 2rem;
+
+  margin-left: -0.325rem;
+}
+
+.cost-text {
+  font-size: 1.25rem;
+}
+
+.buy-button {
+  width: 100%;
+  height: 3.25rem;
+
+  padding: 0.875rem 1.5rem;
+
+  color: #525463;
+  font-size: 1rem;
+  font-weight: 600;
+
+  background-color: #f4f4f4;
+
+  border: none;
+}
+
+main,
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container,
+.buy-button {
+  border-radius: 0.5rem;
+}
