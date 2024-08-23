@@ -1,0 +1,71 @@
+main {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+
+  color: #f7f7f7;
+  background-color: #161616;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.625rem 1.625rem;
+}
+
+a {
+  color: #f7f7f7;
+}
+
+.battery {
+  display: flex;
+  align-items: center;
+}
+
+.battery::after {
+  content: '';
+  display: block;
+  position: relative;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
+  left: 0.25rem;
+  bottom: 0.1rem;
+
+  background: no-repeat url('./assets/battery.png');
+  background-size: 1.5rem;
+}
+
+article {
+  height: 24rem;
+
+  border-radius: 1rem;
+  background: #2a2a2a;
+}
+
+.current-time {
+  font-size: 4rem;
+}
+
+footer {
+  height: calc(100vh - 24rem);
+  border-top: 1px solid #2a2a2a;
+}
+
+article,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
