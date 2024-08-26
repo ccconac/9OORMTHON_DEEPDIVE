@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+
+  gap: 2rem;
+}
+
+.box-container {
+  width: 10rem;
+  height: 5rem;
+
+  text-align: center;
+  background-color: #eee;
+}
+
+main,
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#margin-option {
+  margin: 2rem;
+}
+
+#padding-option {
+  padding: 2rem;
+}
+
+#margin-option,
+#padding-option {
+  border: 1px solid #000;
+}
+
+#border-option {
+  border: 1px solid #1782bb;
+}
