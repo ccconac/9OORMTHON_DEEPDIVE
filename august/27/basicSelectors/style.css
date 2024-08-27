@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  gap: 3rem;
+}
+
+.buttons {
+  width: 6rem;
+  height: 4rem;
+
+  font-size: 2rem;
+
+  border: none;
+  border-radius: 1rem;
+
+  cursor: pointer;
+  transition: linear 0.3s;
+}
+
+#sprout-button {
+  background-color: #e6ffcb;
+}
+
+#fire-button {
+  background-color: #fff1cf;
+}
+
+#cold-button {
+  background-color: #e0edff;
+}
+
+#chick-button {
+  background-color: #fffce0;
+}
