@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  transition: background-color 0.3s; 
+}
+
+td:hover {
+  background-color: #f0f8ff;
+}
