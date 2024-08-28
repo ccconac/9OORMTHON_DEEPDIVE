@@ -17,4 +17,4 @@ const hanoi = (number, from, to) => {
 hanoi(N, 1, 3);
 
 console.log(count);
-console.log(answer.map((value) => value.join(' ')).join('\\n'));
+console.log(answer.map((value) => value.join(' ')).join('\n'));
