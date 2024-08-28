@@ -1,4 +1,4 @@
-const input = require('fs').readFileSync('index.txt').toString().trim().split('\\n').map(row => row.split(' ').map(Number));
+const input = require('fs').readFileSync('index.txt').toString().trim().split('\n').map(row => row.split(' ').map(Number));
 
 const [N, K] = input.shift().map(Number);
 const W = [];
