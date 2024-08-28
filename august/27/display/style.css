@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box1 {
+  display: none;
+}
+
+.box1,
+.box4 {
+  background-color: green;
+}
+
+.box2,
+.box5 {
+  background-color: orange;
+}
+
+.box3,
+.box6 {
+  background-color: yellow;
+}
+
+.box6 {
+  background-color: yellow;
+}
+
+.box2,
+.box3 {
+  display: block;
+}
+
+.box4,
+.box5,
+.box6 {
+  display: inline;
+  width: 5rem;
+  height: 5rem;
+}
