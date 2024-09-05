@@ -19,9 +19,10 @@ class Stack {
 const solution = (array) => {
   const stack = new Stack();
   const stackSize = array.length - 1;
+  const string = array.split('');
 
   for (let i = stackSize; i >= 0; i--) {
-    stack.push(array.split('')[i]);
+    stack.push(string[i]);
   }
 
   return stack.arr;
